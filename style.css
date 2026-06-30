@@ -145,7 +145,7 @@ section{position:relative;z-index:10;padding:110px 60px}
 .edu-progress-bar{flex:1;height:3px;background:rgba(0,255,247,0.08);border-radius:2px;overflow:hidden;max-width:240px;position:relative}
 .edu-progress-bar::before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,255,247,0.3) 25%,transparent 75%);animation:progressShimmer 2s ease-in-out infinite}
 @keyframes progressShimmer{0%,100%{opacity:0.5}50%{opacity:1}}
-.edu-progress-fill{height:100%;background:linear-gradient(90deg,var(--c1),var(--c2));border-radius:2px;width:50%;position:relative;z-index:1;box-shadow:0 0 8px var(--c1);animation:progressGrow 2s ease both}
+.edu-progress-fill{height:100%;background:linear-gradient(90deg,var(--c1),var(--c2));border-radius:2px;width:75%;position:relative;z-index:1;box-shadow:0 0 8px var(--c1);animation:progressGrow 2s ease both}
 @keyframes progressGrow{from{width:0}}
 .edu-progress-label{font-family:'JetBrains Mono',monospace;font-size:0.6rem;letter-spacing:0.1em;color:var(--c1)}
 
